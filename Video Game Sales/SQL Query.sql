@@ -77,3 +77,4 @@ SELECT year
 FROM top_critic_years_with_more_than_10_games)
 GROUP BY year
 ORDER BY total_games_sold DESC;
+
