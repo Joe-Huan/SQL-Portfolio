@@ -4,7 +4,6 @@
 SELECT TOP 10 *
 FROM game_sales_data
 ORDER BY total_shipped DESC;
---LIMIT 10 (if used in MySQL and PostgreSQL)
 
 
 /*
