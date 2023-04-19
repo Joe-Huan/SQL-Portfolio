@@ -8,3 +8,8 @@ Welcome to my SQL portfolio! Here you can find me demonstrating my SQL technique
 - Data source: [Kaggle](https://www.kaggle.com/datasets/holmjason2/videogamedata)
 - Tools & language used: [Microsoft SQL Server, TSQL](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - Dataset cleaned with Microsoft Excel
+
+### 2) [Netflix TV Shows & Movies](https://github.com/Joe-Huan/SQL-Portfolio/tree/main/Netflix%20Movies%20%26%20TV%20Shows)
+- Data source: [Kaggle](https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies)
+- Tools & language used: [Microsoft SQL Server, TSQL](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- Dataset cleaned with Microsoft Excel
