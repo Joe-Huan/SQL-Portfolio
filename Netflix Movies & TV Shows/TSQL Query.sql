@@ -1,5 +1,5 @@
 /*
-					How many actors played more than 10 roles between 2000-2020?
+		How many actors played more than 10 roles between 2000-2020?
 */
 
 WITH temp AS
@@ -24,7 +24,7 @@ FROM actors_with_more_than_10_roles
 ORDER BY COUNT(name) DESC;
 
 /*
-				 How many actors have a career length of more than 50 years?
+		How many actors have a career length of more than 50 years?
 */
 
 WITH temp AS 
@@ -41,7 +41,7 @@ SELECT COUNT(career_length) AS num_of_actors_with_50_years_in_acting_career
 FROM temp
 
 /*
-					Longest, shortest, and average movie length?
+		Longest, shortest, and average movie length?
 */
 
 SELECT MAX(runtime) AS longest_movie_length, MIN(runtime) AS shortest_movie_length, AVG(runtime) AS average_movie_length
@@ -49,7 +49,7 @@ FROM titles
 WHERE type = 'MOVIE'
 
 /*
-					How many shows have more than 15 seasons?
+		How many shows have more than 15 seasons?
 */
 
 SELECT DISTINCT(COUNT(title)) AS num_shows_with_15_or_more_seasons
@@ -58,7 +58,7 @@ WHERE type = 'SHOW' AND seasons >= 15
 
 
 /*
-					How many actors played more than 5 movies that have an imdb score of 8.5 and above with at least 10000 imdb votes?
+		How many actors played more than 5 movies that have an imdb score of 8.5 and above with at least 10000 imdb votes?
 */
 
 SELECT COUNT(name) FROM
